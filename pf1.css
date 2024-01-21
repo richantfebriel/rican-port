@@ -56,6 +56,13 @@ body {
     font-size: small;
 }
 
+.two {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
 .desc{
     font-size: medium;
     width: 100%;
