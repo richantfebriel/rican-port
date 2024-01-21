@@ -22,56 +22,16 @@ body {
     transform: translateX(0);
 }
 
-/* @media(prefers-reduced-motion){
-    .hidden {
-        transition: none;
-    }
-} */
+.back {
+    opacity: 0.1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .container {
     display: grid;
-}
-
-.satu {
-    background: url('img/bck.JPG') center/cover no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 40px;
-}
-
-.one { 
-    color: white;
-}
-
-.one h1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-}
-
-.one p {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;
-}
-
-.two {
-    display: flex;
-    width: 600px;
-    justify-content: center;
-    align-items: center;
-}
-
-.desc{
-    font-size: medium;
-    width: 100%;
-    margin: auto;
-    color: gray;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin-top: 600px;
-    padding-bottom: 40px;
 }
 
 .carousel-inner .carousel-item {
