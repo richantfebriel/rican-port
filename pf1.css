@@ -60,22 +60,10 @@ body {
     transition: opacity 0.9s ease-in-out;
 }
 
-.unai {
-    width: 10%;
+.edu-img {
+    width: 7%;
     max-width: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 110px;
-    left: -54px;
-}
-
-.fti {
-    width: 10%;
-    max-width: 100%;
-    position: absolute;
-    z-index: 1;
-    margin-top: -80px;
-    right: -54px;
+    margin-top: 30px;
 }
 
 .info-edu {
